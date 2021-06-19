@@ -14,5 +14,5 @@ apt install -y $LIST_OF_APPS
 apt remove -y $LIST_OF_REMOVE
 
 echo " "
-echo " "
 echo "This awesome script has concluded its operations."
+echo " "
