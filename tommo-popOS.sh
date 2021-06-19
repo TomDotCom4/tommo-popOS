@@ -1,5 +1,5 @@
 #!/bin/sh
-LIST_OF_APPS="brave-browser vlc neofetch keepassxc"
+LIST_OF_APPS="brave-browser vlc neofetch keepassxc virtualbox"
 LIST_OF_REMOVE="firefox gnome-sudoku aisleriot quadrapassel gimp gnome-weather gnome-todo rhythmbox pitivi brasero cheese "
 apt install apt-transport-https curl
 
@@ -12,3 +12,5 @@ apt update
 apt install -y $LIST_OF_APPS
 
 apt remove -y $LIST_OF_REMOVE
+
+echo "this message should appear at the end when everything is done."
