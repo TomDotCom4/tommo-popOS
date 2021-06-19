@@ -1,5 +1,5 @@
 #!/bin/sh
-LIST_OF_APPS="brave-browser vlc neofetch keepassxc virtualbox"
+LIST_OF_APPS="brave-browser vlc neofetch keepassxc virtualbox flameshot obs-studio gnome-tweaks"
 LIST_OF_REMOVE="firefox gnome-sudoku aisleriot quadrapassel gimp gnome-weather gnome-todo rhythmbox pitivi brasero cheese "
 apt install apt-transport-https curl
 
