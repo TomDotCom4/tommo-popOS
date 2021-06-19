@@ -13,4 +13,6 @@ apt install -y $LIST_OF_APPS
 
 apt remove -y $LIST_OF_REMOVE
 
-echo "this message should appear at the end when everything is done."
+echo " "
+echo " "
+echo "This awesome script has concluded its operations.
