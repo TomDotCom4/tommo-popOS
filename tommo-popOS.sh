@@ -16,9 +16,9 @@ apt update
 
 apt upgrade
 
-apt install -y $LIST_OF_APPS
-
 apt remove -y $LIST_OF_REMOVE
+
+apt install -y $LIST_OF_APPS
 
 echo " "
 echo "This awesome script has concluded its operations!"
