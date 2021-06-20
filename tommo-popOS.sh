@@ -20,8 +20,6 @@ apt remove -y $LIST_OF_REMOVE
 
 apt install -y $LIST_OF_APPS
 
-flatpak install -y flathub io.freetubeapp.FreeTube
-
 echo " "
 echo "This awesome script has concluded its operations!"
 echo " "
