@@ -18,10 +18,11 @@ apt remove -y $LIST_OF_REMOVE
 
 apt install -y $LIST_OF_APPS
 
-mpv https://www.youtube.com/watch?v=Wch3gJG2GJ4
-
+#mpv configuration
+echo "Congfiguring mpv"
+mkdir ~/.config/mpv
+chmod 777 ~/.config/mpv
 sudo wget https://raw.githubusercontent.com/TomDotCom4/tommo-popOS/main/mpv.conf -P ~/.config/mpv
-
 sudo chmod 777 ~/.config/mpv/mpv.conf
 
 echo " "
