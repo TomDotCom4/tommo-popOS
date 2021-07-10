@@ -18,6 +18,12 @@ apt remove -y $LIST_OF_REMOVE
 
 apt install -y $LIST_OF_APPS
 
+mpv https://www.youtube.com/watch?v=Wch3gJG2GJ4
+
+sudo wget https://raw.githubusercontent.com/TomDotCom4/tommo-popOS/main/mpv.conf -P ~/.config/mpv
+
+sudo chmod 777 ~/.config/mpv/mpv.conf
+
 echo " "
 echo "This awesome script has concluded its operations!"
 echo " "
