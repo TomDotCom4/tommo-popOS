@@ -1,5 +1,5 @@
 #!/bin/sh
-LIST_OF_APPS="brave-browser mpv neofetch keepassxc virtualbox flameshot gnome-tweaks youtube-dl"
+LIST_OF_APPS="brave-browser mpv neofetch keepassxc virtualbox flameshot gnome-tweaks youtube-dl htop"
 LIST_OF_REMOVE="firefox gnome-sudoku aisleriot quadrapassel gimp gnome-weather gnome-todo rhythmbox pitivi brasero cheese geary gnome-calendar gnome-contacts"
 
 echo " "
@@ -19,11 +19,11 @@ apt remove -y $LIST_OF_REMOVE
 apt install -y $LIST_OF_APPS
 
 #mpv configuration
-echo "Congfiguring mpv"
-mkdir ~/.config/mpv
-chmod 777 ~/.config/mpv
-sudo wget https://raw.githubusercontent.com/TomDotCom4/tommo-popOS/main/mpv.conf -P ~/.config/mpv
-sudo chmod 777 ~/.config/mpv/mpv.conf
+#echo "Congfiguring mpv"
+#mkdir ~/.config/mpv
+#chmod 777 ~/.config/mpv
+#sudo wget https://raw.githubusercontent.com/TomDotCom4/tommo-popOS/main/mpv.conf -P ~/.config/mpv
+#sudo chmod 777 ~/.config/mpv/mpv.conf
 
 echo " "
 echo "This awesome script has concluded its operations!"
